@@ -41,8 +41,8 @@ def intcomma(value):
         return intcomma(new)
 
 powers = [10 ** x for x in (6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 100)]
-human_powers = ('million', 'billion', 'trillion', 'quadrillion', 'quintillion',
-    'sextillion', 'septillion', 'octillion', 'nonillion', 'decillion', 'googol')
+human_powers = ('milhão', 'bilhão', 'trilhão', 'quadrilhõa', 'quintilhão',
+    'sextilhão', 'septilhão', 'octilhão', 'nonilhão', 'decilhão', 'googol')
 
 
 def intword(value, format='%.1f'):
